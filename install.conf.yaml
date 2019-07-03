@@ -1,0 +1,25 @@
+- clean: ['~']
+
+- link:
+    ~/.profile:
+        path: profile
+        create: false
+        relink: false
+        force: false
+    ~/.gitconfig:
+        path: gitconfig
+        create: false
+        relink: false
+        force: false
+    ~/.ssh/config:
+        path: ssh/config
+        create: true
+        relink: false
+        force: false
+    ~/.config/redshift:
+        path: config/redshift/
+        create: true
+        relink: false
+        force: false
+
+
