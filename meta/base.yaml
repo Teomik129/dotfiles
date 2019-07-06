@@ -1,9 +1,10 @@
 - defaults:
-		link:
-		create: true
-		relink: true
-
-- clean: [
-	'~',
-	'~/.config'
-	]
+    link:
+      create: true
+      relink: true
+- clean:
+    - "~"
+    - ~/.config
+    - ~/.local
+- link:
+    ~/.local/bin: bin

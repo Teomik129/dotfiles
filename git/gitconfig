@@ -1,7 +1,7 @@
 # Global Config
 [user]
-	name = "Juleo Amosah"
-	email = "teomik129@gmail.com"
+	name = Juleo Amosah
+	email = teomik129@gmail.com
 
 [branch "master"]
 	remote = origin
@@ -39,8 +39,9 @@
 	branch = magenta
 
 [core]
-	pager = less -FRSX
+	pager = most
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+	excludesfile = /home/teomik/.gitignore_global
 
 [diff]
 	tool = vimdiff

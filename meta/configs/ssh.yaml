@@ -1,2 +1,2 @@
 - link:
-    ~/.ssh: ssh
+    ~/.ssh/config: ssh/config
