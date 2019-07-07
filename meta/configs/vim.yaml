@@ -1,0 +1,5 @@
+- link:
+    ~/.vim: editors/vim
+    ~/.vimrc: editors/vim/vimrc
+    ~/.config/nvim/init.vim: editors/vim/vimrc
+    ~/.local/share/nvim/site/autoload: editors/vim/autoload

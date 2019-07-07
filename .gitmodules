@@ -2,3 +2,6 @@
 	path = meta/dotbot
 	url = git@github.com:anishathalye/dotbot.git
 	branch = master
+[submodule "editors/nano"]
+	path = editors/nano
+	url = github:scopatz/nanorc.git

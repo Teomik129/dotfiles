@@ -1,4 +1,4 @@
 - link:
     ~/.zshrc: shells/zsh/zshrc
-    ~/.zsh_plugins.sh: shells/zsh/zsh_plugins.sh
+    ~/.zsh_plugins.sh: shells/zsh/zsh_plugins.zsh
     ~/.zprofile: shells/profile

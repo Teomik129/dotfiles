@@ -8,3 +8,4 @@
     - ~/.local
 - link:
     ~/.local/bin: bin
+    ~/.profile: shells/profile

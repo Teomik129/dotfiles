@@ -1,0 +1,30 @@
+# systemctl
+alias systemctl='sudo systemctl'
+alias sctl='systemctl'
+source /usr/share/bash-completion/completions/systemctl
+complete -F _systemctl sctl
+
+# ls
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -lisahF'
+
+# cd
+alias ..='cd ..'
+alias ...='cd ../..'
+
+# sprunge
+alias sprunge="curl -F 'sprunge=<-' http://sprunge.us"
+
+#use clipboard by default
+alias xclip='xclip -selection c'
+
+#g pg
+alias gpg='gpg --expert'
+alias gpg2='gpg2 --expert'
+
+# nvim
+alias vim='nvim'
+
+# qrclip
+alias qrclip='xclip -o | qr2'

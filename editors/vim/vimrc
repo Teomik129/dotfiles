@@ -1,0 +1,6 @@
+" Plugins using vim-plug
+" https://github.com/junegunn/vim-plug
+
+call plug#begin()
+Plug 'tpope/vim-sensible'
+call plug#end()
