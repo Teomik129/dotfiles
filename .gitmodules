@@ -4,4 +4,4 @@
 	branch = master
 [submodule "editors/nano"]
 	path = editors/nano
-	url = github:scopatz/nanorc.git
+	url = git@github.com:scopatz/nanorc.git
