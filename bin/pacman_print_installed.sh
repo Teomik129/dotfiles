@@ -9,4 +9,4 @@ fi
 
 # Print out the explicitly installed packages, with the
 # groups filtered out.
-pacman -Qe | grep -v "`pacman -Qqeg $groups`"
+pacman -Qe | grep -v "$(pacman -Qqeg ${groups})"
