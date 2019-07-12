@@ -1,6 +1,17 @@
 # Custom Preferences
-export EDITOR="mousepad &>/dev/null"
-export PAGER="most"
+export EDITOR="/usr/bin/nvim"
+export PAGER="/usr/bin/most"
+
+# set PATH so it includes user's private bin if it exists
+if [ -e "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+if [ -e "$HOME/.bin" ] ; then
+    PATH="$HOME/.bin:$PATH"
+fi
+if [ -e "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
 
 # Coloured Man Pages
 # https://www.tecmint.com/view-colored-man-pages-in-linux/
