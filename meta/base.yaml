@@ -5,7 +5,7 @@
 - clean:
     - "~"
     - ~/.config
-    - ~/.local
+    - ~/.bin
 - link:
-    ~/.local/bin: bin
+    ~/.bin: bin
     ~/.profile: shells/profile
