@@ -1,16 +1,16 @@
 # Custom Preferences
-export EDITOR="/usr/bin/nvim"
-export PAGER="/usr/bin/most"
+export EDITOR="/usr/bin/env nvim"
+export PAGER="/usr/bin/env most"
 
 # set PATH so it includes user's private bin if it exists
 if [ -e "$HOME/bin" ] ; then
-    PATH="$HOME/bin:$PATH"
+    export PATH="$HOME/bin:$PATH"
 fi
 if [ -e "$HOME/.bin" ] ; then
-    PATH="$HOME/.bin:$PATH"
+    export PATH="$HOME/.bin:$PATH"
 fi
 if [ -e "$HOME/.local/bin" ] ; then
-    PATH="$HOME/.local/bin:$PATH"
+    export PATH="$HOME/.local/bin:$PATH"
 fi
 
 # Coloured Man Pages

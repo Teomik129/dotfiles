@@ -3,7 +3,7 @@ alias reload!='. ~/.zshrc'
 # ls
 alias ls='ls --color=auto' # Colorize the ls output
 alias la='ls -A' # List all
-alias ll='ls -lA' # Use a long listing format
+alias ll='ls -FlAshi' # Use a long listing format
 alias l.='ls -d .* --color=auto' # Show hidden files
 
 # Directory
@@ -32,10 +32,9 @@ alias wget='wget -c'
 alias _="sudo"
 
 # Tree
-if [ ! -x "$(which tree 2>/dev/null)" ]
-then
+command -v tree >/dev/null 2>&1 || {
   alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
-fi
+}
 
 # npm
 alias ni='npm install'
@@ -71,7 +70,8 @@ catt() {
 
 
 speedtest() {
+  local shell=${1:-zsh}
   for i in $(seq 1 10); do
-    time zsh -i -c exit;
+    time ${shell} -i -c exit;
   done
 }
