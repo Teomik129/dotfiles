@@ -5,3 +5,6 @@
 [submodule "editors/nano"]
 	path = editors/nano
 	url = git@github.com:scopatz/nanorc.git
+[submodule "tmux/plugins/tpm"]
+	path = tmux/plugins/tpm
+	url = git@github.com:tmux-plugins/tpm
