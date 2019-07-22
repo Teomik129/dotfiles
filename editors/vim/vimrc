@@ -12,5 +12,4 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
 call plug#end()
 
-autocmd vimenter * NERDTree
 map <C-n> :NERDTreeToggle<CR>
