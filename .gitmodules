@@ -1,10 +1,10 @@
 [submodule "meta/dotbot"]
 	path = meta/dotbot
-	url = git@github.com:anishathalye/dotbot.git
+	url = https://github.com/anishathalye/dotbot.git
 	branch = master
 [submodule "editors/nano"]
 	path = editors/nano
-	url = git@github.com:scopatz/nanorc.git
+	url = https://github.com/scopatz/nanorc.git
 [submodule "tmux/plugins/tpm"]
 	path = tmux/plugins/tpm
-	url = git@github.com:tmux-plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
