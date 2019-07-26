@@ -130,7 +130,4 @@ shopt -s cdable_vars
 # Don't use /etc/hosts for ssh autocomplete
 export COMP_KNOWN_HOSTS_WITH_HOSTFILE=""
 
-# Set home on C:\ in WSL
-if [[ "$(< /proc/version)" == *@(Microsoft|WSL)* ]]; then
-    export CHome=/mnt/c/Users/$USER
-fi
+
