@@ -1,4 +1,9 @@
-alias reload!='. ~/.zshrc'
+# sudo
+alias _='sudo'
+
+# cd
+alias ..='cd ..'
+alias ...='cd ../..'
 
 # ls
 alias ls='ls --color=auto' # Colorize the ls output
@@ -10,6 +15,9 @@ alias l.='ls -d .* --color=auto' # Show hidden files
 alias mkdir='mkdir -pv'
 alias md='mkdir'
 alias rd='rmdir'
+
+# sprunge
+alias sprunge="curl -F 'sprunge=<-' http://sprunge.us"
 
 # Helpers
 alias path='echo -e ${PATH//:/\\n}'
@@ -28,14 +36,6 @@ alias edit='vim'
 # wget
 alias wget='wget -c'
 
-# sudo
-alias _="sudo"
-
-# Tree
-command -v tree >/dev/null 2>&1 || {
-  alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
-}
-
 # npm
 alias ni='npm install'
 alias nis='npm install --save'
@@ -46,8 +46,6 @@ alias nitd='npm install-test --save-dev'
 alias nu='npm uninstall'
 alias nus='npm uninstall --save'
 alias nusd='npm uninstall --save-dev'
-alias np='npm publish'
-alias nup='npm unpublish'
 alias nlk='npm link'
 alias nod='npm outdated'
 alias nrb='npm rebuild'
@@ -56,6 +54,10 @@ alias nr='npm run'
 alias nls='npm list --depth=0 2>/dev/null'
 alias nlsg='npm list -g --depth=0 2>/dev/null'
 
+# Tree
+command -v tree >/dev/null 2>&1 || {
+  alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+}
 
 # Display whatever file is regular file or folder
 catt() {

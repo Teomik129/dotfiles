@@ -9,3 +9,4 @@
 - link:
     ~/.bin: bin
     ~/.profile: shells/profile
+    ~/.aliases: shells/aliases
