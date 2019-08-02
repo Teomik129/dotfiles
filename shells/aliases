@@ -16,8 +16,8 @@ alias mkdir='mkdir -pv'
 alias md='mkdir'
 alias rd='rmdir'
 
-# sprunge
-alias sprunge="curl -F 'sprunge=<-' http://sprunge.us"
+# termbim
+alias termbin="nc termbin.com 9999"
 
 # Helpers
 alias path='echo -e ${PATH//:/\\n}'
