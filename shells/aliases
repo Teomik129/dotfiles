@@ -1,13 +1,21 @@
 # sudo
 alias _='sudo'
 
-# cd
+# Easier navigation: .., ..., and -
 alias ..='cd ..'
 alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias -- ='cd -'
+
+# mv, rm, cp
+alias mv='mv -v'
+alias rm='rm -i -v'
+alias cp='cp -v'
 
 # ls
 alias ls='ls --color=auto' # Colorize the ls output
-alias la='ls -A' # List all
+alias la='ls -A' # List all (except contextual)
 alias ll='ls -FlAshi' # Use a long listing format
 alias l.='ls -d .* --color=auto' # Show hidden files
 
@@ -17,7 +25,7 @@ alias md='mkdir'
 alias rd='rmdir'
 
 # termbim
-alias termbin="nc termbin.com 9999"
+alias termbin='nc termbin.com 9999'
 
 # Helpers
 alias path='echo -e ${PATH//:/\\n}'
