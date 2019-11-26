@@ -1,7 +1,3 @@
-[submodule "meta/dotbot"]
-	path = meta/dotbot
-	url = https://github.com/anishathalye/dotbot.git
-	branch = master
 [submodule "editors/nano"]
 	path = editors/nano
 	url = https://github.com/scopatz/nanorc.git

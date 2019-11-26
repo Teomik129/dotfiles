@@ -1,6 +1,5 @@
 # Custom Preferences
 export EDITOR="/usr/bin/env nvim"
-export PAGER="/usr/bin/env most"
 
 # set PATH so it includes user's private bin if it exists
 if [ -e "$HOME/bin" ] ; then
