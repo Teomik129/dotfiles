@@ -39,9 +39,8 @@
 	branch = magenta
 
 [core]
-	pager = most
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
-	excludesfile = /home/teomik/.gitignore_global
+	excludesfile = /home/jules/.gitignore_global
 
 [diff]
 	tool = vimdiff
