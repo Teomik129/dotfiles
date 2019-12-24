@@ -4,3 +4,5 @@
 [submodule "tmux/plugins/tpm"]
 	path = tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm
+[submodule "meta/dotbot"]
+	url = https://github.com/anishathalye/dotbot
