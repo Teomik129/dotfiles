@@ -1,4 +1,4 @@
 - link:
     ~/.gitconfig: git/gitconfig
-    ~/.gitattributes: git/gitattributes
+    ~/.gitattributes_global: git/gitattributes_global
     ~/.gitignore_global: git/gitignore_global

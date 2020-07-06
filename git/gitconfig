@@ -40,13 +40,15 @@
 
 [core]
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
-	excludesfile = /home/jules/.gitignore_global
+	excludesfile = ~/.gitignore_global
+	attributesfile = ~/.gitattributes_global
+	autocrlf = true
 
 [diff]
 	tool = vimdiff
 
 [difftool]
-	prompt = false
+	prompt = true
 
 [merge]
 	tool = vimdiff
