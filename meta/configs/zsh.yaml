@@ -1,3 +1,4 @@
 - link:
     ~/.zshrc: shells/zsh/zshrc
+    ~/.p10k.zsh: shells/zsh/p10k.zsh
     ~/.zprofile: shells/profile

@@ -6,7 +6,6 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
-alias -- ='cd -'
 
 # mv, rm, cp
 alias mv='mv -v'
@@ -17,7 +16,7 @@ alias cp='cp -v'
 alias ls='ls --color=auto' # Colorize the ls output
 alias la='ls -A' # List all (except contextual)
 alias ll='ls -FlAshi' # Use a long listing format
-alias l.='ls -d .* --color=auto' # Show hidden files
+alias l.='ls -d .*' # Show hidden files
 
 # Directory
 alias mkdir='mkdir -pv'
