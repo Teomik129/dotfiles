@@ -9,7 +9,7 @@ alias .....='cd ../../../..'
 
 # mv, rm, cp
 alias mv='mv -v'
-alias rm='rm -i -v'
+alias rm='rm -I'
 alias cp='cp -v'
 
 # ls
