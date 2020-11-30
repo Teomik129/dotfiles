@@ -27,7 +27,7 @@ alias rd='rmdir'
 alias termbin='nc termbin.com 9999'
 
 # Helpers
-alias path='echo -e ${PATH//:/\\n}'
+alias path='printf "%b\n" ${PATH//:/\\n}'
 alias now='date +"%T"'
 alias nowtime=now
 alias nowdate='date +"%d-%m-%Y"'
