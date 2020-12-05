@@ -12,9 +12,6 @@ if [ -e "$HOME/.local/bin" ] ; then
   export PATH="$HOME/.local/bin:$PATH"
 fi
 
-# NVM
-[[ -d "/usr/share/nvm" ]] && source /usr/share/nvm/init-nvm.sh
-
 # Coloured Man Pages
 # https://www.tecmint.com/view-colored-man-pages-in-linux/
 export LESS_TERMCAP_mb=$'\e[1;32m'
