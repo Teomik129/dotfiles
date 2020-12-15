@@ -1,4 +1,6 @@
 ssh
+bash
 zsh
 git
 vim
+neovim

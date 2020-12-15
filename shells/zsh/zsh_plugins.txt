@@ -1,8 +1,8 @@
 romkatv/powerlevel10k
+rupa/z
 zsh-users/zsh-syntax-highlighting
 zsh-users/zsh-history-substring-search
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-completions
-rupa/z
-Aloxaf/fzf-tab
 ohmyzsh/ohmyzsh path:plugins/sudo
+ohmyzsh/ohmyzsh path:plugins/fzf

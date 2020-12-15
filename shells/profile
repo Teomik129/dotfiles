@@ -1,5 +1,5 @@
 # Custom Preferences
-export EDITOR="/usr/bin/env nvim"
+export EDITOR=nvim
 
 # set PATH so it includes user's private bin if it exists
 if [ -e "$HOME/bin" ] ; then
@@ -21,11 +21,6 @@ export LESS_TERMCAP_se=$'\e[0m'
 export LESS_TERMCAP_so=$'\e[01;33m'
 export LESS_TERMCAP_ue=$'\e[0m'
 export LESS_TERMCAP_us=$'\e[1;4;31m'
-
-# Set home on C:\ in WSL
-if [[ "$(< /proc/version)" == *@(Microsoft|WSL)* ]]; then
-  export CHome=/mnt/c/Users/$USER
-fi
 
 # Load ssh-agent
 SSH_ENV="$HOME/.ssh/agent-environment"
