@@ -46,5 +46,6 @@ else
   start_agent;
 fi
 
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
+if [[ -d /home/linuxbrew ]]; then
+  source <(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+fi
