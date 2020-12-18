@@ -1,12 +1,9 @@
 # Global Settings
-ForwardAgent yes
+#ForwardAgent yes
 #VisualHostKey yes
 HashKnownHosts no
 #ConnectTimeout 2
-
-# My Hosts
-#Host hostname hostname.fqdn.com
-#    Hostname hostname.fqdn.com
+Include config.d/*
 
 # Default
 Host *

@@ -11,6 +11,9 @@ fi
 if [ -e "$HOME/.local/bin" ] ; then
   export PATH="$HOME/.local/bin:$PATH"
 fi
+if [ -e "$HOME/go/bin" ] ; then
+  export PATH="$HOME/go/bin:$PATH"
+fi
 
 # Coloured Man Pages
 # https://www.tecmint.com/view-colored-man-pages-in-linux/
@@ -31,7 +34,7 @@ function start_agent {
   echo succeeded
   chmod 600 "${SSH_ENV}"
   . "${SSH_ENV}" > /dev/null
-  /usr/bin/ssh-add;
+  /usr/bin/ssh-add
 }
 
 # Source SSH settings, if applicable
@@ -49,3 +52,6 @@ fi
 if [[ -d /home/linuxbrew ]]; then
   source <(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 fi
+
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
