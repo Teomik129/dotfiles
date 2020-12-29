@@ -6,3 +6,4 @@ zsh-users/zsh-autosuggestions
 zsh-users/zsh-completions
 ohmyzsh/ohmyzsh path:plugins/sudo
 ohmyzsh/ohmyzsh path:plugins/fzf
+Aloxaf/fzf-tab
