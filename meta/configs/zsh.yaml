@@ -6,5 +6,5 @@
 - shell:
     - command: "[ -x ~/bin/antibody ] || curl -sfL git.io/antibody | sh -s - -b ~/bin"
       description: Install antibody
-    - command: cd shells/zsh && ~/.bin/antibody bundle < zsh_plugins.txt > zsh_plugins.zsh
+    - command: cd shells/zsh && ~/bin/antibody bundle < zsh_plugins.txt > zsh_plugins.zsh
       description: Bundle plugins
