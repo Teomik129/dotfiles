@@ -14,6 +14,9 @@ fi
 if [ -e "$HOME/go/bin" ] ; then
   export PATH="$HOME/go/bin:$PATH"
 fi
+if [ -e "$HOME/.cargo/bin" ] ; then
+  export PATH="$HOME/.cargo/bin:$PATH"
+fi
 
 # Coloured Man Pages
 # https://www.tecmint.com/view-colored-man-pages-in-linux/
