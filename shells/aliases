@@ -15,9 +15,9 @@ alias cp='cp -v'
 
 # ls
 alias ls='ls --color=auto' # Colorize the ls output
-alias la='ls -A' # List all (except contextual)
-alias ll='ls -FlAshi' # Use a long listing format
-alias l.='ls -d .*' # Show hidden files
+alias la='ls -A'           # List all (except contextual)
+alias ll='ls -FlAshi'      # Use a long listing format
+alias l.='ls -d .*'        # Show hidden files
 
 # Directory
 alias mkdir='mkdir -pv'
@@ -40,17 +40,14 @@ alias svi='sudo nvim'
 alias vis='vim "+set si"'
 alias edit='vim'
 
-
 # wget
 alias wget='wget -c'
 
 # npm
 alias ni='npm install'
+alias nig='npm install --global'
 alias nis='npm install --save'
 alias nid='npm install --save-dev'
-alias nit='npm install-test'
-alias nits='npm install-test --save'
-alias nitd='npm install-test --save-dev'
 alias nu='npm uninstall'
 alias nus='npm uninstall --save'
 alias nusd='npm uninstall --save-dev'
@@ -59,6 +56,7 @@ alias nod='npm outdated'
 alias nrb='npm rebuild'
 alias nud='npm update'
 alias nr='npm run'
+alias nt='npm test'
 alias nls='npm list --depth=0 2>/dev/null'
 alias nlsg='npm list -g --depth=0 2>/dev/null'
 
@@ -78,10 +76,9 @@ catt() {
   done
 }
 
-
 speedtest() {
   local shell=${1:-zsh}
   for i in $(seq 1 10); do
-    time ${shell} -i -c exit;
+    time ${shell} -i -c exit
   done
 }
