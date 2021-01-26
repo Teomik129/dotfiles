@@ -4,4 +4,5 @@ zsh-users/zsh-history-substring-search
 zsh-users/zsh-completions
 ohmyzsh/ohmyzsh path:plugins/sudo
 ohmyzsh/ohmyzsh path:plugins/z
+ohmyzsh/ohmyzsh path:plugins/docker
 marlonrichert/zsh-autocomplete
