@@ -1,8 +1,9 @@
 romkatv/powerlevel10k
-zsh-users/zsh-syntax-highlighting
+zdharma/fast-syntax-highlighting
+Aloxaf/fzf-tab
 zsh-users/zsh-history-substring-search
 zsh-users/zsh-completions
+zsh-users/zsh-autosuggestions
 ohmyzsh/ohmyzsh path:plugins/sudo
 ohmyzsh/ohmyzsh path:plugins/z
 ohmyzsh/ohmyzsh path:plugins/docker
-marlonrichert/zsh-autocomplete
