@@ -52,8 +52,8 @@ else
   start_agent;
 fi
 
-if [ -e /home/jamosah/.nix-profile/etc/profile.d/nix.sh ]; then 
-  source /home/jamosah/.nix-profile/etc/profile.d/nix.sh
+if [ -e ~/.nix-profile/etc/profile.d/nix.sh ]; then 
+  source ~/.nix-profile/etc/profile.d/nix.sh
 fi # added by Nix installer
 
 export VOLTA_HOME="$HOME/.volta"
