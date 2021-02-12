@@ -82,6 +82,7 @@
 	p   = push
 	pa  = push --all
 	pt  = push --tags
+	pu  = push --set-upstream origin HEAD
 	# rebase
 	r   = rebase
 	ra  = rebase --abort
