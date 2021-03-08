@@ -1,10 +1,6 @@
 [submodule "editors/nano"]
 	path = editors/nano
 	url = https://github.com/scopatz/nanorc.git
-[submodule "tmux/plugins/tpm"]
-	path = tmux/plugins/tpm
-	url = https://github.com/tmux-plugins/tpm
-	ignore = dirty
 [submodule "meta/dotbot"]
 	path = meta/dotbot
 	url = https://github.com/anishathalye/dotbot
